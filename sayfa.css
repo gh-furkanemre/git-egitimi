@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #eee;
+}
+.kutu-1{
+    width: 300px;
+    height: 300px;
+    background-color: gray;
+    box-shadow: 12px 12px 0px black;
+    color: white;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.kutu-1 p{
+    cursor: pointer;
+}
