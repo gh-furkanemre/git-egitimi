@@ -18,9 +18,15 @@ body{
     justify-content: center;
     margin: 10px;
     border-radius: 50%;
+    transition: 1s;
 }
 .kutu-1 p{
     cursor: pointer;
     filter: drop-shadow(6px 4px 0px rgb(71, 71, 71));
     font-size: 24px;
+}
+.kutu-1:hover{
+    transition: 1s;
+    background-color: rgb(133, 92, 30);
+    box-shadow: 12px 12px 0px rgb(44, 31, 0);
 }
